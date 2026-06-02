@@ -1,0 +1,35 @@
+body{
+  font-family: Arial;
+  background:#f4f1ea;
+  max-width:900px;
+  margin:auto;
+  padding:30px;
+  line-height:1.8;
+}
+
+.story-card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+a{
+  text-decoration:none;
+  color:#a0522d;
+  font-weight:bold;
+}
+
+#password-box{
+  text-align:center;
+  margin-top:100px;
+}
+
+input{
+  padding:10px;
+}
+
+button{
+  padding:10px;
+  cursor:pointer;
+}
