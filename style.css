@@ -1,17 +1,16 @@
 body{
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   background:#f4f1ea;
   max-width:900px;
   margin:auto;
   padding:30px;
   line-height:1.8;
+  color:#2b2b2b;
 }
 
-.story-card{
-  background:white;
-  padding:20px;
-  border-radius:10px;
-  margin-top:20px;
+h1{
+  color:#5a3e2b;
+  margin-bottom:30px;
 }
 
 a{
@@ -33,50 +32,35 @@ button{
   padding:10px;
   cursor:pointer;
 }
-.story-card{
+
+.story-list{
   display:flex;
-  gap:20px;
-  background:white;
-  padding:20px;
-  border-radius:12px;
-  margin-bottom:25px;
-  box-shadow:0 2px 8px #00000015;
+  flex-wrap:wrap;
+  gap:28px;
   align-items:flex-start;
 }
 
+.story-card{
+  width:160px;
+  text-align:center;
+}
+
+.story-card a{
+  display:block;
+  color:#5a3e2b;
+  text-decoration:none;
+}
+
 .cover{
-  width:120px;
-  height:170px;
+  width:160px;
+  height:225px;
   object-fit:cover;
   border-radius:10px;
-  flex-shrink:0;
+  box-shadow:0 2px 8px #00000025;
 }
 
-.story-info{
-  flex:1;
-}
-
-.story-info h2{
-  margin-top:0;
-}
-
-.tags{
-  color:#a0522d;
-  font-size:14px;
-  margin-bottom:10px;
-}
-
-.story-desc{
-  font-size:15px;
-  line-height:1.7;
-}
-
-.read-btn{
-  display:inline-block;
+.story-card h2{
+  font-size:17px;
+  line-height:1.4;
   margin-top:10px;
-  background:#a0522d;
-  color:white;
-  padding:8px 16px;
-  border-radius:8px;
-  text-decoration:none;
 }
