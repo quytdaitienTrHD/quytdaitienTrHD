@@ -13,6 +13,10 @@ h1{
   margin-bottom:30px;
 }
 
+h2{
+  color:#5a3e2b;
+}
+
 a{
   text-decoration:none;
   color:#a0522d;
@@ -33,6 +37,7 @@ button{
   cursor:pointer;
 }
 
+/* Trang chủ: danh sách truyện */
 .story-list{
   display:flex;
   flex-wrap:wrap;
@@ -63,4 +68,123 @@ button{
   font-size:17px;
   line-height:1.4;
   margin-top:10px;
+}
+
+/* Thanh điều hướng */
+.top-nav{
+  display:flex;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.top-nav a{
+  background:#fff;
+  padding:8px 16px;
+  border-radius:8px;
+  box-shadow:0 2px 5px #00000020;
+}
+
+/* Trang giới thiệu từng truyện */
+.info-page{
+  background:white;
+  padding:24px;
+  border-radius:15px;
+}
+
+/* Ảnh bìa trong trang truyện */
+.info-cover{
+  width:120px;
+  height:170px;
+  object-fit:cover;
+  border-radius:10px;
+  display:block;
+  margin:0 auto 18px auto;
+  box-shadow:0 2px 8px #00000025;
+}
+
+/* Giới thiệu truyện */
+.story-intro{
+  font-size:15px;
+  line-height:1.75;
+  margin-bottom:28px;
+}
+
+.story-intro p{
+  margin:0 0 10px 0;
+}
+
+/* Mục lục chương */
+.chapter-list{
+  columns:4;
+  column-gap:35px;
+  padding-left:20px;
+}
+
+.chapter-list li{
+  break-inside:avoid;
+  margin-bottom:8px;
+  font-size:15px;
+}
+
+/* Nội dung chương */
+.chapter-content{
+  white-space:pre-wrap;
+  line-height:1.9;
+  font-size:20px;
+  background:white;
+  padding:30px;
+  border-radius:15px;
+}
+
+/* Nút chương trước/sau */
+.chapter-nav{
+  display:flex;
+  justify-content:space-between;
+  margin-top:40px;
+}
+
+.chapter-nav a{
+  background:#fff;
+  padding:10px 18px;
+  border-radius:8px;
+  box-shadow:0 2px 5px #00000020;
+}
+
+/* Mobile */
+@media (max-width:600px){
+  body{
+    padding:18px;
+  }
+
+  .story-card{
+    width:135px;
+  }
+
+  .cover{
+    width:135px;
+    height:190px;
+  }
+
+  .story-card h2{
+    font-size:15px;
+  }
+
+  .chapter-list{
+    columns:2;
+    column-gap:20px;
+  }
+
+  .info-cover{
+    width:100px;
+    height:145px;
+  }
+
+  .story-intro{
+    font-size:14px;
+  }
+
+  .chapter-content{
+    font-size:18px;
+    padding:20px;
+  }
 }
