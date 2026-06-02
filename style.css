@@ -33,3 +33,50 @@ button{
   padding:10px;
   cursor:pointer;
 }
+.story-card{
+  display:flex;
+  gap:20px;
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:25px;
+  box-shadow:0 2px 8px #00000015;
+  align-items:flex-start;
+}
+
+.cover{
+  width:120px;
+  height:170px;
+  object-fit:cover;
+  border-radius:10px;
+  flex-shrink:0;
+}
+
+.story-info{
+  flex:1;
+}
+
+.story-info h2{
+  margin-top:0;
+}
+
+.tags{
+  color:#a0522d;
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+.story-desc{
+  font-size:15px;
+  line-height:1.7;
+}
+
+.read-btn{
+  display:inline-block;
+  margin-top:10px;
+  background:#a0522d;
+  color:white;
+  padding:8px 16px;
+  border-radius:8px;
+  text-decoration:none;
+}
