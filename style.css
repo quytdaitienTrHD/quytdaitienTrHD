@@ -93,8 +93,8 @@ button{
 
 /* Ảnh bìa trong trang truyện */
 .info-cover{
-  width:50px;
-  height:80px;
+  width:90px;
+  height:130px;
   object-fit:cover;
   border-radius:10px;
   display:block;
@@ -104,7 +104,7 @@ button{
 
 /* Giới thiệu truyện */
 .story-intro{
-  font-size:12px;
+  font-size:14px;
   line-height:1.7;
   margin-bottom:28px;
 }
